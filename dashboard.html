@@ -7,7 +7,7 @@
     window.onload = function() {
         const username = localStorage.getItem("username");
         document.getElementById("details").innerHTML =
-        `I am welcoming you, <strong>${username || 'Hi!'}</strong>! We're so excited to have you join us on this A Glimpse into Dayana's World.`;
+        `I am welcoming you, <strong>${username || ' Hi!'}</strong>! We're so excited to have you join us on this A Glimpse into Dayana's World.`;
     }
 
     function goToHome() {
@@ -22,7 +22,7 @@
     <h1>YOU ARE WELCOME HERE :></h1>
     <div id="details"></div>
     
-    <!-- 🚀 Back to Home button -->
-    <br><button onclick="goToHome()">Click Here</button>
+    <!-- 🚀 Add a Back to Home button -->
+   <br> <button onclick="goToHome()">Click Here </button>
 </body>
 </html>
